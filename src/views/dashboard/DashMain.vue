@@ -77,6 +77,7 @@
         <span slot="footerSlot">{{ `当日订单总数：${reviOrderQty}`}}</span>
       </chart-card>
     </div>
+    
 
     <div class="dash-main">
       <el-card shadow="hover">
