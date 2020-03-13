@@ -1,0 +1,41 @@
+@import "./element-ui.scss";
+
+#app,
+blockquote,
+body,
+ul,
+li,
+ol,
+button,
+dd,
+dl,
+dt,
+fieldset,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+input,
+legend,
+p,
+pre,
+td,
+textarea,
+th {
+  margin: 0;
+  padding: 0;
+}
+
+html,body,#app{
+  /*设置内部填充为0，几个布局元素之间没有间距*/
+  
+  /*统一设置高度为100%*/
+  height: 100%;
+  font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    
+}
+
